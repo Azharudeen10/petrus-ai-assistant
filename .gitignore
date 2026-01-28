@@ -1,0 +1,71 @@
+############################
+# 🔐 Secrets & Credentials
+############################
+.env
+.env.*
+*.pem
+*.key
+*.crt
+.aws/
+.aws/config
+.aws/credentials
+
+############################
+# 📄 Company Documents & Data
+############################
+data/documents/
+data/**/*.pdf
+data/**/*.docx
+data/**/*.xlsx
+data/**/*.csv
+
+############################
+# 🧠 Vector Stores / Indexes
+############################
+vectorstore/
+vectorstore/**
+
+############################
+# 🐍 Python Environment
+############################
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+############################
+# 📦 Python Build Artifacts
+############################
+build/
+dist/
+*.whl
+
+############################
+# 🧪 Test / Coverage
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# 🖥️ IDE / Editor
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# 🖥️ OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# 🌐 Streamlit
+############################
+.streamlit/
