@@ -59,11 +59,11 @@ streamlit run app.py
 ```
 
 ## 💡 How It Works
-    - **Ingestion**: The system reads PDFs from data/documents/, splits them into 500-character chunks, and converts them into vectors using Amazon Titan.
+- **Ingestion**: The system reads PDFs from data/documents/, splits them into 500-character chunks, and converts them into vectors using Amazon Titan.
 
-    - **Retrieval**: When you ask a question, the system searches the FAISS index for the top 3 most relevant document snippets.
+- **Retrieval**: When you ask a question, the system searches the FAISS index for the top 3 most relevant document snippets.
 
-    - **Generation**: The relevant snippets and your question are sent to Claude 3 Sonnet, which generates a precise answer based only on the provided context.
+- **Generation**: The relevant snippets and your question are sent to Claude 3 Sonnet, which generates a precise answer based only on the provided context.
 
 ## ⚠️ Important Notes
 **🌍 AWS Regions**
